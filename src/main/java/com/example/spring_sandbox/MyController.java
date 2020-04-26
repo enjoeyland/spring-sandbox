@@ -27,6 +27,7 @@ public class MyController {
         for (int i = 0; i <20 ; i++) {
             myAsyncService.doAsyncPrintingTask(i);
         }
+        log.info("I'm changed");
     }
 
     @RequestMapping(value = "/async/listenableFuture", method = RequestMethod.GET)
