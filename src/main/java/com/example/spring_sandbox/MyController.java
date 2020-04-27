@@ -28,7 +28,7 @@ public class MyController {
             myAsyncService.doAsyncPrintingTask(i);
         }
         log.info("I'm changed");
-        log.info("post commit hook");
+        log.info("post commit hook2");
     }
 
     @RequestMapping(value = "/async/listenableFuture", method = RequestMethod.GET)
