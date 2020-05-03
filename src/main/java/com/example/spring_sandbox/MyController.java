@@ -29,6 +29,7 @@ public class MyController {
         }
         log.info("I'm changed");
         log.info("post commit hook2");
+        log.info("post commit hook3");
     }
 
     @RequestMapping(value = "/async/listenableFuture", method = RequestMethod.GET)
