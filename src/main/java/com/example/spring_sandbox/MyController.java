@@ -20,6 +20,7 @@ public class MyController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public void hihi() {
         myEventPublisher.publish();
+        log.info("hi");
     }
 
     @RequestMapping(value = "/async/void", method = RequestMethod.GET)
